@@ -1,0 +1,51 @@
+* { 
+	box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+
+input {
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.content {
+  background: rgb(52, 52, 116);
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: scroll;
+}
+
+button {
+  border: 0;
+  border-radius: 2px;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.message {
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.error {
+  background-color:lightcoral;
+  color:brown;
+}
+
+.success {
+  background-color: darkseagreen;
+  color: green;
+}
+
+.conditional-content {
+  height: 10vh;
+}

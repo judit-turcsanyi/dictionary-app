@@ -1,0 +1,27 @@
+#quiz {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 1.5rem;
+}
+
+#random-word {
+    padding: 2rem;
+}
+
+#show-random-button {
+    background-color: darkorchid;
+}
+
+#guess-button {
+    background-color: green;
+}
+
+#delete-button {
+    background-color: red;
+}

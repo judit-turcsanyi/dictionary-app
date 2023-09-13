@@ -1,0 +1,17 @@
+#full-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#fulllist-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+#delete-from-list-button {
+    margin: 0 0 0 1rem;
+    background-color: red;
+    padding: 0.3rem;
+}
